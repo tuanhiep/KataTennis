@@ -17,9 +17,9 @@ public class Main {
 
         Writer writer = new OutputStreamWriter(System.out);
 
-        TennisDisplay controller = new TennisDisplay(service, reader, writer);
+        TennisDisplay display = new TennisDisplay(service, reader, writer);
 
-        controller.begin();
+        display.begin();
 
     }
 
